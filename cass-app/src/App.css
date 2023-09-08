@@ -1,3 +1,7 @@
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -14,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #6a606e;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +39,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.Hammy {
+  margin-top: -125px;
+  margin-left: 270px;
+}
+
+p {
+  margin: 130px 0px;
+  padding-left: 60px;
+  color: #fce6cf;
 }
